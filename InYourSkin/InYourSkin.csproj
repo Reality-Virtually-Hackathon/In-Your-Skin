@@ -113,6 +113,7 @@
     <Compile Include="Assets\InstantVR\Movements\IVR_Interaction.cs" />
     <Compile Include="Assets\InstantVR\Movements\IVR_Movements.cs" />
     <Compile Include="Assets\InstantVR\Movements\IVR_Reticle.cs" />
+    <Compile Include="Assets\Scripts\ControllerManager.cs" />
     <Compile Include="Assets\Scripts\Main.cs.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />

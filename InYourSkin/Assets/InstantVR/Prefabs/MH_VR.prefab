@@ -648,6 +648,7 @@ MonoBehaviour:
   walkingType: 0
   sidestepping: 1
   rotation: 0
+  fingerMovements: 0
   teleportLayerMask:
     serializedVersion: 2
     m_Bits: 4294967291
