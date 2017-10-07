@@ -78,6 +78,42 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\3. PortalDoor\Scripts\PortalEntry.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\4. Callbacks\Scripts\IlluminationController.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\6. RuntimeCreation\Scripts\CreateStereoRenderer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Examples\Common\Scripts\FollowHmd.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\DeviceParamFactory\IDeviceParamFactory.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\DeviceParamFactory\SteamVRParamFactory.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\DeviceType.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\StereoRenderer.cs" />
+    <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\StereoRenderManager.cs" />
+    <Compile Include="Assets\InstantVR\Demo\GroceryStore\Scripts\HandGunEventTrigger.cs" />
+    <Compile Include="Assets\InstantVR\Demo\GroceryStore\Scripts\InputHandler.cs" />
+    <Compile Include="Assets\InstantVR\Demo\GroceryStore\Scripts\IVR_SphereReticle.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Animator\IVR_Animator.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Animator\IVR_AnimatorFoot.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Animator\IVR_AnimatorHand.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Animator\IVR_AnimatorHead.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Animator\IVR_AnimatorHip.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\IVR_Extension.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Traditional\IVR_Traditional.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Traditional\IVR_TraditionalHand.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\Traditional\IVR_TraditionalHead.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\UnityVR\IVR_UnityVR.cs" />
+    <Compile Include="Assets\InstantVR\Extensions\UnityVR\IVR_UnityVRHead.cs" />
+    <Compile Include="Assets\InstantVR\General\Debug.cs" />
+    <Compile Include="Assets\InstantVR\General\Generic.cs" />
+    <Compile Include="Assets\InstantVR\InstantVR.cs" />
+    <Compile Include="Assets\InstantVR\Movements\HeadMovements.cs" />
+    <Compile Include="Assets\InstantVR\Movements\HeadMovementsFree.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_BodyMovements.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_HandInput.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_HandMovementsBase.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_Input.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_Interaction.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_Movements.cs" />
+    <Compile Include="Assets\InstantVR\Movements\IVR_Reticle.cs" />
+    <Compile Include="Assets\Scripts\Main.cs.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_GazeTracker.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_LaserPointer.cs" />
     <Compile Include="Assets\SteamVR\Extras\SteamVR_Teleporter.cs" />
@@ -182,6 +218,11 @@
     <Compile Include="Assets\SteamVR\Scripts\SteamVR_Utils.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\Shader\ScreenSpaceShadows-ForCustomPerspectiveMat.shader" />
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\Shader\StereoRenderShader.shader" />
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\Shader\StereoRenderShader_5_3.shader" />
+    <None Include="Assets\HTC.UnityPlugin\StereoRendering\readme.txt" />
+    <None Include="Assets\InstantVR\Readme.txt" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\SeeThru.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Core\Shaders\Silhouette.shader" />
     <None Include="Assets\SteamVR\InteractionSystem\Hints\Shaders\ControllerButtonHints.shader" />
