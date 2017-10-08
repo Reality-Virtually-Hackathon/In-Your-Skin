@@ -133,16 +133,10 @@
   <ItemGroup>
     <Compile Include="Assets\HTC.UnityPlugin\StereoRendering\Scripts\Editor\StereoRendererEditor.cs" />
     <Compile Include="Assets\InstantVR\Editor\HeadMovements_Editor.cs" />
-    <Compile Include="Assets\InstantVR\Editor\IVR_Advanced_Editor.cs" />
     <Compile Include="Assets\InstantVR\Editor\IVR_Animator_Editor.cs" />
     <Compile Include="Assets\InstantVR\Editor\IVR_Controller_Editor.cs" />
     <Compile Include="Assets\InstantVR\Editor\IVR_Editor.cs" />
     <Compile Include="Assets\InstantVR\Editor\IVR_Extension_Editor.cs" />
-    <Compile Include="Assets\InstantVR\Editor\IVR_Hydra_Editor.cs" />
-    <Compile Include="Assets\InstantVR\Editor\IVR_Kinect2_Editor.cs" />
-    <Compile Include="Assets\InstantVR\Editor\IVR_Leap_Editor.cs" />
-    <Compile Include="Assets\InstantVR\Editor\IVR_SteamVRController_Editor.cs" />
-    <Compile Include="Assets\InstantVR\Editor\IVR_Touch_Editor.cs" />
     <Compile Include="Assets\InstantVR\Editor\IVR_Traditional_Editor.cs" />
     <Compile Include="Assets\InstantVR\Editor\IVR_UnityVR_Editor.cs" />
     <Compile Include="Assets\OVR\Editor\OVRBuild.cs" />

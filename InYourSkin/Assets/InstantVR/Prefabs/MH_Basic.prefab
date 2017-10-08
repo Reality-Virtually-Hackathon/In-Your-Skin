@@ -3237,10 +3237,8 @@ MonoBehaviour:
   leftHandMovements: {fileID: 0}
   rightHandMovements: {fileID: 0}
   characterTransform: {fileID: 441390}
-  avatarNeckHeight: 0
   playerID: 0
   stepOffset: 0.3
-  useGravity: 1
   collisions: 1
   triggerEntered: 0
   collided: 0
@@ -3250,7 +3248,6 @@ MonoBehaviour:
   rotationSpeed: 60
   proximitySpeed: 1
   proximitySpeedRate: 0.8
-  velocity: {x: 0, y: 0, z: 0}
 --- !u!114 &11400012
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3262,8 +3259,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 9b56ad1d4ff12d8469c32c444532491c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  rightHandTarget: {fileID: 0}
-  leftHandTarget: {fileID: 0}
   enableTorso: 1
   enableLegs: 1
   leftArm:
