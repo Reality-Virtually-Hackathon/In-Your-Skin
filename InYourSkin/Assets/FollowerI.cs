@@ -8,7 +8,7 @@ public class FollowerI : MonoBehaviour {
 	int rotationSpeed = 3; //speed of turning
 	float range = 5f;
 	float range2 = 15f;
-	float stop = .5f;
+	float stop = 1f;
 	Transform myTransform  ; //current transform data of this enemy
 
 	void Awake()
