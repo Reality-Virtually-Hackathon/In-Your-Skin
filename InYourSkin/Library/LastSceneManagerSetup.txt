@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/InstantVR/Demo/GroceryStore/Grocery Store.unity
+- path: Assets/Scenes/MirrorHandsAndTouvhPad2.unity
   isLoaded: 1
   isActive: 1
