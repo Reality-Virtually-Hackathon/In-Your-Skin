@@ -667,6 +667,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: -1
   origin: {fileID: 0}
+  isValid: 0
 --- !u!4 &586732564
 Transform:
   m_ObjectHideFlags: 0
@@ -1859,6 +1860,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: -1
   origin: {fileID: 0}
+  isValid: 0
 --- !u!4 &1340362459
 Transform:
   m_ObjectHideFlags: 0
@@ -2909,6 +2911,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   index: 0
   origin: {fileID: 0}
+  isValid: 0
 --- !u!20 &2124648837
 Camera:
   m_ObjectHideFlags: 0

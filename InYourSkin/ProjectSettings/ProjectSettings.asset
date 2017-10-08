@@ -4,7 +4,7 @@
 PlayerSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 12
-  productGUID: 8d2e40fa1268b5a4c8b938985776b2f5
+  productGUID: 80da3faee3302164cb86750786d3c7c1
   AndroidProfiler: 0
   defaultScreenOrientation: 4
   targetDevice: 2
@@ -140,8 +140,7 @@ PlayerSettings:
   useHDRDisplay: 0
   targetPixelDensity: 0
   resolutionScalingMode: 0
-  applicationIdentifier:
-    Standalone: com.oculus.UnitySample
+  applicationIdentifier: {}
   buildNumber: {}
   AndroidBundleVersionCode: 1
   AndroidMinSdkVersion: 16
@@ -504,8 +503,7 @@ PlayerSettings:
   webGLUseEmbeddedResources: 0
   webGLUseWasm: 0
   webGLCompressionFormat: 1
-  scriptingDefineSymbols:
-    1: INSTANTVR_ADVANCED;IVR_STEAMVR
+  scriptingDefineSymbols: {}
   platformArchitecture: {}
   scriptingBackend: {}
   incrementalIl2cppBuild: {}
@@ -595,8 +593,8 @@ PlayerSettings:
   cloudServicesEnabled: {}
   facebookSdkVersion: 7.9.4
   apiCompatibilityLevel: 2
-  cloudProjectId: aa68fe87-57b2-4f3f-ae9a-0233e46a2c64
-  projectName: InYourSkin
+  cloudProjectId: f0e28f1f-7b33-4033-a07b-1cc9416412ac
+  projectName: InYourSkin (1)
   organizationId: echo-474847
   cloudEnabled: 0
   enableNativePlatformBackendsForNewInputSystem: 0

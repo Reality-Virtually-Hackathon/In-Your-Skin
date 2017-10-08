@@ -451,8 +451,8 @@ MonoBehaviour:
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
   cameraRoot: {fileID: 0}
+  vrTracking: 0
   positionalTracking: 0
-  steamManager: {fileID: 0}
 --- !u!114 &11400028
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -648,7 +648,9 @@ MonoBehaviour:
   walkingType: 0
   sidestepping: 1
   rotation: 0
-  fingerMovements: 0
+  teleportLayerMask:
+    serializedVersion: 2
+    m_Bits: 4294967291
 --- !u!124 &12400000
 Behaviour:
   m_ObjectHideFlags: 1
