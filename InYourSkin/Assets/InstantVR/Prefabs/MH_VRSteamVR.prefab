@@ -3774,6 +3774,7 @@ MonoBehaviour:
   trackerRotation: {x: 0, y: 0, z: 0, w: 1}
   showTracker: 0
   trackerPrefab: {fileID: 0}
+  steamManager: {fileID: 0}
 --- !u!114 &114000012401977586
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3788,6 +3789,7 @@ MonoBehaviour:
   extension: {fileID: 114000012238855478}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
+  steamTracker: {fileID: 0}
 --- !u!114 &114000013068136118
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -3839,6 +3841,7 @@ MonoBehaviour:
   extension: {fileID: 114000012238855478}
   position: {x: 0, y: 0, z: 0}
   rotation: {x: 0, y: 0, z: 0, w: 0}
+  steamTracker: {fileID: 0}
 --- !u!114 &114000013361157822
 MonoBehaviour:
   m_ObjectHideFlags: 1

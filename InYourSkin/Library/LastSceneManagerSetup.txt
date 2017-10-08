@@ -1,4 +1,4 @@
 sceneSetups:
-- path: Assets/Scenes/MirrorWithBodyControl.unity
+- path: Assets/InstantVR/Demo/GroceryStore/Grocery Store.unity
   isLoaded: 1
   isActive: 1

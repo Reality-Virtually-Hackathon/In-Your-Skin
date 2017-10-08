@@ -12,6 +12,7 @@ ModelImporter:
     2300000: DTEC_Peng
     3300000: DTEC_Peng
     4300000: DTEC_Peng
+  materials:
     importMaterials: 1
     materialName: 0
     materialSearch: 1

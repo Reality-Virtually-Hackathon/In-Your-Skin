@@ -77,11 +77,11 @@ namespace IVR {
 
             Transform otherSteamTrackerTransform;
             if (isLeft) {
-                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.FindChild("Steam Controller Right");
+                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.Find("Steam Controller Right");
                 if (steamVRextension.steamManager != null)
                     steamVRextension.steamManager.right = otherSteamTrackerTransform.gameObject;
             } else {
-                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.FindChild("Steam Controller Left");
+                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.Find("Steam Controller Left");
                 if (steamVRextension.steamManager != null)
                     steamVRextension.steamManager.left = otherSteamTrackerTransform.gameObject;
             }
@@ -98,9 +98,9 @@ namespace IVR {
             IVR_UnityVRHead unityVRhead = ivr.headTarget.GetComponent<IVR_UnityVRHead>();
             Transform otherSteamTrackerTransform;
             if (transform == ivr.leftHandTarget) {
-                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.FindChild("Steam Controller Right");
+                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.Find("Steam Controller Right");
             } else {
-                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.FindChild("Steam Controller Left");
+                otherSteamTrackerTransform = unityVRhead.cameraRoot.transform.Find("Steam Controller Left");
             }
             SteamVR_TrackedObject otherSteamTracker = otherSteamTrackerTransform.GetComponent<SteamVR_TrackedObject>();
             if (otherSteamTracker.index == controllerIndex) {
@@ -200,12 +200,6 @@ namespace IVR {
             controllerInputSide.down |= (controllerInputSide.stickButton && controllerInputSide.stickVertical < -0.3F);
             controllerInputSide.left |= (controllerInputSide.stickButton && controllerInputSide.stickHorizontal < -0.3F);
             controllerInputSide.right |= (controllerInputSide.stickButton && controllerInputSide.stickHorizontal > 0.3F);
-
-            if (device.GetAxis() != Vector2.zero)
-            {
-                Debug.Log(gameObject.name + device.GetAxis());
-            }
-
         }
         #endregion
 #endif
